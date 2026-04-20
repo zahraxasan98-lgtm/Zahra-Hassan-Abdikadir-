@@ -1,39 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Restaurant - Home</title>
+<title>Delicious Food</title>
+
+<style>
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ID */
+#logo {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Class */
+.special {
+  color: hsl(0, 100%, 50%);
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+/* Descendant */
+nav a {
+  color: green;
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  padding: 10px;
+}
+</style>
+
 </head>
 
-<body style="background-color: lightyellow; font-family: Arial;">
+<body>
 
-  <header style="background-color: orange; padding: 10px;">
-    <h1 style="color: white;">My Restaurant</h1>
-  </header>
+<header id="logo">
+<h1 style="color:red;">🍽 Delicious Food</h1>
+</header>
 
-  <nav style="margin: 10px;">
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="services.html">Services</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+</ul>
+</nav>
 
-  <main>
-    <h2 style="color: green;">Welcome</h2>
-    <p style="font-size: 18px;">
-      This is the best restaurant in town.
-    </p>
+<main>
 
-    <h3>Our Foods</h3>
-    <ul>
-      <li>Pizza</li>
-      <li>Burger</li>
-      <li>Rice</li>
-    </ul>
-  </main>
+<h2>Welcome to our Restaurant</h2>
 
-  <footer style="background-color: orange; color: white; text-align: center; padding: 10px;">
-    <p>© 2026 My Restaurant</p>
-  </footer>
+<p class="special">🔥 Today Offer: Free Drink with any meal!</p>
+
+<h3>Top 3 Meals</h3>
+<ol>
+<li>Chicken Rice</li>
+<li>Fish & Chips</li>
+<li>Spaghetti</li>
+</ol>
+
+<div style="float:right; padding:10px; background:#ddd;">
+<p><b>Open:</b> 8AM - 10PM</p>
+</div>
+
+</main>
+
+<footer>
+<p>© 2026 Delicious Food</p>
+</footer>
 
 </body>
 </html>
