@@ -1,19 +1,43 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+body {
+    font-family: Arial;
+    text-align: center;
 }
-.nav{
-  width: 80px;
+
+/* Class selector */
+.nav-btn {
+    width: 80px;
+    margin: 5px;
 }
-h1,h2{
-  color: darkblue;
+
+/* Image style */
+.img {
+    width: 200px;
+    margin: 10px;
 }
-.big-image{
-  background-image: url( "../images/bg.jpg");
-  background-size: cover;
+
+/* Background image page */
+.home-bg {
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
 }
-.gradient{
-  background: linear-gradient(to right, red,yellow);
-} ul li{
-  color: green;
+
+/* Gradient background */
+.gradient-bg {
+    background: linear-gradient(to right, lightblue, pink);
+}
+
+/* Group selector */
+h1, p {
+    color: darkblue;
+}
+
+/* ID selector example */
+#special {
+    color: red;
+    font-weight: bold;
+}
+
+/* Descendant selector */
+body p {
+    font-size: 18px;
 }
