@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <style> footer{
+        text-align: center;
+            background-color: white;
+            color: black
+    }
+        nav{
+            float: right;
+            width: 150px;
+            padding: 10px;
+            font-size: medium;
+            
+        }
+
+        header{
+            background-color: aliceblue;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: silver;
+            margin: 0;
+            padding: 20px;
+        }
+        form{
+            max-width: 600px;
+            margin: 0 auto;
+            background-color:white;
+            padding: 25px; 
+            border-radius: 12px;
+            box-shadow: 0 4px 10px  rgb(39, 39, 194), ;
+
+        }
+        fieldset{
+          border: 2px solid rgb(38, 41, 194);
+          padding: 20px;
+          border-radius: 10px;
+        }
+        legend{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: black;
+        }
+        label{
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border:  1px solid black;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            transition: all;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somali Tesch Solution</title>
+</head>
+<body> 
+    <header><h2>Registration page</h2></header>
+    <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photo.html">photo</a></li>
+                <li> <a href="form.html">Registration</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+         </nav>
+
+         <form action="">
+            <fieldset>
+                 <legend>Isdiiwaan gelinta macaamiisha</legend>
+                 <label for="fullname">Full  name:</label>
+                 <input type="text" name="fullname" id="fullname" placeholder="Enter your Full name"> <br><br>
+                 <label for="email">Email:</label>
+                 <input type="text"name="email" id="email" placeholder="Enter email"> <br><br>
+                 <label for="pass">password:</label>
+                 <input type="text" name="pass" id="pass" placeholder="Enter password"> <br> <br>
+                 <label for="tell">phone number</label>
+                 <input type="text" name="tell" id="tell" placeholder="Enter you number"> <br><br>
+                 <h2>Choose your Gender</h2>
+                 <label for="male">Male</label>
+                 <input type="radio" name="Gender" id="Male">
+
+                 <label for="female">Female</label>
+                 <input type="radio" name="Gender" id="Female">
+                 <h2>Dooro Magaalada aad joogto</h2>
+                 <select name="Magaalada" id="Magaalada"  >
+                    <option value="Mogadishu">Mogadishu</option>
+                    <option value="hodan">Baydhabo</option>
+                    <option value="Baydhabo">Garowe</option>
+                    <option value="Borama">Borama</option> <br> <br>
+
+                    <label for="birthday">Dooro xiliga aad dhalatay</label>
+                    <input type="date" name="Dhalashada" id="Dhalashada"> <br><br>
+                    <input type="submit" name="send" id="send"> &nbsp;&nbsp;
+                    <input type="reset" name="clear" id="clear">
+
+
+                 </select>
+
+                  
+                 
+            </fieldset>
+         </form>
+         <footer><h3>Xaquuqa Website ka waxaa leh &copy;STS 2020</h3></footer>
+
+</body>
+</html>
